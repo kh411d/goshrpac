@@ -1,8 +1,9 @@
-module github.com/kh411d/goshrpac
+module github.com/kh411d/goshrpac/app
 
 go 1.18
 
 require (
+	github.com/kh411d/goshrpac/pkg v0.0.0-20221116160607-8c34335dc202
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/viper v1.14.0
 )

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/kh411d/goshrpac/internal/cmd"
+	"github.com/kh411d/goshrpac/app/internal/cmd"
 	"github.com/kh411d/goshrpac/pkg/sqx"
 )
 

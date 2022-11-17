@@ -3,7 +3,7 @@ module github.com/kh411d/goshrpac/app
 go 1.18
 
 require (
-	github.com/kh411d/goshrpac/pkg v0.0.0-20221116164341-a05417aa44d6
+	github.com/kh411d/goshrpac/pkg v0.0.0-20221117071944-b3404d5a1f90
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/viper v1.14.0
 )

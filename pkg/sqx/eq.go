@@ -10,6 +10,10 @@ import (
 // Eq is syntactic sugar for use with Where/Having/Set methods.
 type Eq map[string]interface{}
 
+func NewEq() Eq {
+	return make(Eq)
+}
+
 func (eq Eq) toSQL(useNotOpr bool) (sql string, args []interface{}, err error) {
 	if len(eq) == 0 {
 		// Empty Sql{} evaluates to true.
